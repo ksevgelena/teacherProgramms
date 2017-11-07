@@ -1,0 +1,104 @@
+body, html {
+    width: 100%;
+    min-width: 1200px;
+    height: 100%;
+   /* margin: 0;
+    padding: 0;
+   font-family:Georgia;
+    background: #ffffff;
+    color: #000000;*/
+}
+.wrapper{
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.h1{
+    width: 100%;
+    padding: 50px 0;
+    /*font-size: 20px;
+    line-height: 24px;*/
+    text-align: center;
+    border-bottom: dotted 1px #9EC1D4;
+}
+.h4{
+    padding: 5px 0;
+    border-bottom: dotted 1px #9EC1D4;
+}
+.row{
+    padding: 25px 0;
+}
+.content{
+    float: left;
+    width: 75%;
+    text-align: center;
+}
+
+.lab{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.boxbutton{
+    margin-top: 30px;
+}
+
+.line{
+    padding: 5px 0;
+    border-bottom: dotted 1px #9EC1D4;
+}
+.select2 {
+    /*width: 21em;*/
+    margin-bottom: 20px;
+}
+
+.title {
+   /* margin-bottom: 20px;*/
+    height: 34px;
+}
+
+/*button {
+    margin-bottom: 20px !important;
+}*/
+
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal_container {
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+.podskazka {
+    background-color: #fdf7f7;
+    border-color: #d9534f;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 3px solid #d9534f;
+}
+
+.podskazka h4 {
+    color: #d9534f;
+    margin: 10px 0;
+}
+.dobavlenieStroki{
+    background-color: #f1f8e9;
+    margin: 10px 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+
+.dobavlenieStroki h3{
+    color: #519657;
+    margin: 10px 0;
+}
